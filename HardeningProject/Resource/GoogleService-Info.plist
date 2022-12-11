@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>330313044443-ou7ljecsp01v2frqg9vc3vkqsaopkh4f.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.330313044443-ou7ljecsp01v2frqg9vc3vkqsaopkh4f</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDmtVd4P8mwlkSdQeOYKedhfCKI-sxOKCM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>330313044443</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.my.HardeningProject</string>
+	<key>PROJECT_ID</key>
+	<string>hardeningproject-f6385</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hardeningproject-f6385.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:330313044443:ios:7d74306d06e2ded12a17fe</string>
+</dict>
+</plist>
