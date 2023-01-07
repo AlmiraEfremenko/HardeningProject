@@ -25,12 +25,11 @@ class StartOrFollowButton: UIButton {
     
     private func configure() {
         titleLabel?.font = .systemFont(ofSize: 22, weight: .bold)
-        setTitleColor(.specialLayerAndTextButton, for: .normal)
-        backgroundColor = .specialBackground
-        layer.borderColor = UIColor.specialLayerAndTextButton.cgColor
-        layer.borderWidth = 3
-        layer.cornerRadius = 18
+        setTitleColor(.white, for: .normal)
+        backgroundColor = .specialViewBackground
+       // layer.borderColor = UIColor.specialTextButton.cgColor
+        //layer.borderWidth = 3
+        layer.cornerRadius = 10
         translatesAutoresizingMaskIntoConstraints = false
     }
 }
-

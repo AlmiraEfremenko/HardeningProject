@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0426E792295620150078206E /* UIButton + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426E791295620150078206E /* UIButton + Ext.swift */; };
 		04970EFA294612C4004E389B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 04970EF9294612C4004E389B /* FirebaseAuth */; };
 		04970EFC294612C4004E389B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 04970EFB294612C4004E389B /* FirebaseFirestore */; };
 		04970F02294613C9004E389B /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04970F01294613C9004E389B /* MainTabBar.swift */; };
@@ -25,8 +26,8 @@
 		04970F31294617EB004E389B /* StageHardeningController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04970F30294617EB004E389B /* StageHardeningController.swift */; };
 		04970F3E29461A11004E389B /* FirstStageMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04970F3D29461A11004E389B /* FirstStageMarkViewController.swift */; };
 		04970F4029461A21004E389B /* FirstStageMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04970F3F29461A21004E389B /* FirstStageMarkView.swift */; };
-		04970F4629461B1C004E389B /* SecondStageMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04970F4529461B1C004E389B /* SecondStageMarkView.swift */; };
-		04970F4829461B33004E389B /* SecondStageMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04970F4729461B33004E389B /* SecondStageMarkViewController.swift */; };
+		04970F4629461B1C004E389B /* SecondStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04970F4529461B1C004E389B /* SecondStageView.swift */; };
+		04970F4829461B33004E389B /* SecondStageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04970F4729461B33004E389B /* SecondStageViewController.swift */; };
 		04970F5029461BE9004E389B /* ThirdStageMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04970F4F29461BE9004E389B /* ThirdStageMarkView.swift */; };
 		04970F5229461C0D004E389B /* ThirdStageMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04970F5129461C0D004E389B /* ThirdStageMarkViewController.swift */; };
 		04970F5429461C3F004E389B /* ThirdStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04970F5329461C3F004E389B /* ThirdStageView.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0426E791295620150078206E /* UIButton + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Ext.swift"; sourceTree = "<group>"; };
 		04970F01294613C9004E389B /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
 		04970F0329461450004E389B /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		04970F09294614CB004E389B /* FirstStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStageView.swift; sourceTree = "<group>"; };
@@ -65,8 +67,8 @@
 		04970F30294617EB004E389B /* StageHardeningController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageHardeningController.swift; sourceTree = "<group>"; };
 		04970F3D29461A11004E389B /* FirstStageMarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStageMarkViewController.swift; sourceTree = "<group>"; };
 		04970F3F29461A21004E389B /* FirstStageMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStageMarkView.swift; sourceTree = "<group>"; };
-		04970F4529461B1C004E389B /* SecondStageMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondStageMarkView.swift; sourceTree = "<group>"; };
-		04970F4729461B33004E389B /* SecondStageMarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondStageMarkViewController.swift; sourceTree = "<group>"; };
+		04970F4529461B1C004E389B /* SecondStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondStageView.swift; sourceTree = "<group>"; };
+		04970F4729461B33004E389B /* SecondStageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondStageViewController.swift; sourceTree = "<group>"; };
 		04970F4F29461BE9004E389B /* ThirdStageMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdStageMarkView.swift; sourceTree = "<group>"; };
 		04970F5129461C0D004E389B /* ThirdStageMarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdStageMarkViewController.swift; sourceTree = "<group>"; };
 		04970F5329461C3F004E389B /* ThirdStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdStageView.swift; sourceTree = "<group>"; };
@@ -314,6 +316,7 @@
 		04970F3429461961004E389B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04970F4529461B1C004E389B /* SecondStageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 		04970F3529461966004E389B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04970F4729461B33004E389B /* SecondStageViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -405,7 +409,6 @@
 		04970F4329461A8F004E389B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				04970F4729461B33004E389B /* SecondStageMarkViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -413,7 +416,6 @@
 		04970F4429461A97004E389B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				04970F4529461B1C004E389B /* SecondStageMarkView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -508,6 +510,7 @@
 				04970F5F29461F4D004E389B /* UIColor + Ext.swift */,
 				04970F6229461F68004E389B /* UILabel + Ext.swift */,
 				04970F6429461F7E004E389B /* UIButton.swift */,
+				0426E791295620150078206E /* UIButton + Ext.swift */,
 				04970F6629461F90004E389B /* UIView.swift */,
 				04970F7229462D33004E389B /* UIStackView + Ext.swift */,
 			);
@@ -667,12 +670,13 @@
 				04970F6D29462111004E389B /* ProfileViewController.swift in Sources */,
 				04CCC1D929460D3000A36A66 /* ThirdStageViewController.swift in Sources */,
 				04970F0A294614CB004E389B /* FirstStageView.swift in Sources */,
+				0426E792295620150078206E /* UIButton + Ext.swift in Sources */,
 				04970F6529461F7E004E389B /* UIButton.swift in Sources */,
 				04970F6329461F68004E389B /* UILabel + Ext.swift in Sources */,
 				04970F0C294614E3004E389B /* FirstStageController.swift in Sources */,
 				04970F692946206C004E389B /* AuthManager.swift in Sources */,
 				04970F1429461590004E389B /* AuthController.swift in Sources */,
-				04970F4829461B33004E389B /* SecondStageMarkViewController.swift in Sources */,
+				04970F4829461B33004E389B /* SecondStageViewController.swift in Sources */,
 				04970F7329462D33004E389B /* UIStackView + Ext.swift in Sources */,
 				04970F0429461450004E389B /* FirebaseManager.swift in Sources */,
 				04970F6729461F90004E389B /* UIView.swift in Sources */,
@@ -682,7 +686,7 @@
 				04970F31294617EB004E389B /* StageHardeningController.swift in Sources */,
 				04970F5029461BE9004E389B /* ThirdStageMarkView.swift in Sources */,
 				04970F21294616EE004E389B /* MainScreenView.swift in Sources */,
-				04970F4629461B1C004E389B /* SecondStageMarkView.swift in Sources */,
+				04970F4629461B1C004E389B /* SecondStageView.swift in Sources */,
 				04970F6029461F4D004E389B /* UIColor + Ext.swift in Sources */,
 				04970F6B29462102004E389B /* ProfileView.swift in Sources */,
 				04970F1C2946163F004E389B /* GetCodeController.swift in Sources */,
